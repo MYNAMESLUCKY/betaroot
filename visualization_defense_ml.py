@@ -57,12 +57,12 @@ class VisualDefenseML:
         os.makedirs(visualizations_dir, exist_ok=True)
         
         # MongoDB Atlas Configuration
-        self.mongodb_uri = "mongodb+srv://lucky123:lucky123@cluster0.324fu4n.mongodb.net/?appName=Cluster0"
+        self.mongodb_uri = 
         self.mongodb_client = None
         self.mongodb_db = None
         
         # Tavily API Configuration
-        self.tavily_api_key = "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"
+        self.tavily_api_key = .env
         
         # Device configuration
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
