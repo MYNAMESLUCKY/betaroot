@@ -1,0 +1,5 @@
+caption visualizations/user_uploaded_image.png
+vqa visualizations/user_uploaded_image.png::What is happening in this image?
+vqa visualizations/user_uploaded_image.png::What objects can you identify?
+vqa visualizations/user_uploaded_image.png::Is this a military area?
+quit

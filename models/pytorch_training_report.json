@@ -1,0 +1,23 @@
+{
+  "training_date": "2025-11-23T18:56:07.678268",
+  "training_time_seconds": 23.259526,
+  "models": {
+    "satellite": {
+      "accuracy": 0,
+      "status": "failed"
+    },
+    "signal": {
+      "accuracy": 1.0,
+      "status": "success"
+    },
+    "threat": {
+      "status": "failed"
+    }
+  },
+  "gpu_available": true,
+  "gpu_device": "NVIDIA GeForce RTX 2050",
+  "pytorch_version": "2.7.1+cu118",
+  "cuda_version": "11.8",
+  "device_used": "cuda",
+  "acceleration": "GPU"
+}

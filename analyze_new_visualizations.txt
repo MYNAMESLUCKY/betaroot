@@ -1,0 +1,5 @@
+caption visualizations/satellite_20251123_201902.png
+vqa visualizations/satellite_20251123_201902.png::What is happening in this satellite image?
+caption visualizations/satellite_20251123_201926.png
+vqa visualizations/satellite_20251123_201926.png::What military assets are visible?
+quit

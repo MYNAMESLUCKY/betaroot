@@ -1,0 +1,5 @@
+caption visualizations/satellite_20251123_193457.png
+vqa visualizations/satellite_20251123_193457.png::What military assets are visible?
+recommend signal intelligence dataset
+history
+quit

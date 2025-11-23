@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp": "2025-11-23T14:54:31.896294",
+    "type": "caption",
+    "payload": {
+      "image": "visualizations/user_uploaded_image.png",
+      "caption": "a graph of a square with a line of dots on it"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T14:54:32.138795",
+    "type": "vqa",
+    "payload": {
+      "image": "visualizations/user_uploaded_image.png",
+      "question": "What is happening in this image?",
+      "answer": "flying"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T14:54:32.195931",
+    "type": "vqa",
+    "payload": {
+      "image": "visualizations/user_uploaded_image.png",
+      "question": "What objects can you identify?",
+      "answer": "plane"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T14:54:32.255760",
+    "type": "vqa",
+    "payload": {
+      "image": "visualizations/user_uploaded_image.png",
+      "question": "Is this a military area?",
+      "answer": "yes"
+    }
+  }
+]

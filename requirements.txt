@@ -1,0 +1,32 @@
+# Defense Intelligence ML Requirements
+# Pure ML system for defense and military intelligence analysis
+
+# Deep Learning Frameworks
+tensorflow==2.15.0
+torch==2.1.1
+
+# Computer Vision
+opencv-python==4.8.1.78
+Pillow==10.1.0
+
+# Data Science
+numpy==1.24.3
+pandas==2.1.4
+scipy==1.11.4
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Machine Learning
+scikit-learn==1.3.2
+
+# Signal Processing
+librosa==0.10.1
+
+# Utilities
+tqdm==4.66.1
+joblib==1.3.2
+h5py==3.10.0
+
+# Development
+jupyter==1.0.0
+ipykernel==6.27.1

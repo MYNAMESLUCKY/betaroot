@@ -1,0 +1,28 @@
+{
+  "training_date": "2025-11-23T19:13:22.186374",
+  "training_time_seconds": 65.0443,
+  "models": {
+    "signal": {
+      "accuracy": 0,
+      "status": "failed"
+    },
+    "threat": {
+      "status": "failed"
+    }
+  },
+  "gpu_available": true,
+  "gpu_device": "NVIDIA GeForce RTX 2050",
+  "pytorch_version": "2.7.1+cu118",
+  "cuda_version": "11.8",
+  "device_used": "cuda",
+  "mongodb_connected": true,
+  "tavily_api_used": true,
+  "datasets_discovered": 5,
+  "dataset_categories": [
+    "satellite",
+    "signal",
+    "cybersecurity",
+    "military",
+    "network"
+  ]
+}

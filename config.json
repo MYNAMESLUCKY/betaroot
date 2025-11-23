@@ -1,0 +1,72 @@
+{
+  "mongodb": {
+    "atlas_uri": "mongodb+srv://username:password@cluster.mongodb.net/defense_intel",
+    "database": "defense_intelligence",
+    "collections": {
+      "signals": "signal_data",
+      "threats": "threat_data",
+      "models": "trained_models",
+      "predictions": "predictions"
+    }
+  },
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "defense_user",
+    "password": "secure_password",
+    "database": "defense_db"
+  },
+  "data_sources": {
+    "kaggle_datasets": [
+      "andrewmvd/satellite-image-classification",
+      "chirag19/forest-fire-prediction-dataset",
+      "ucimae/signal-processing-datasets"
+    ],
+    "github_repos": [
+      "https://github.com/openai/gym",
+      "https://github.com/tensorflow/models"
+    ]
+  },
+  "model_config": {
+    "satellite": {
+      "input_shape": [
+        224,
+        224,
+        3
+      ],
+      "num_classes": 10,
+      "classes": [
+        "tank",
+        "aircraft",
+        "ship",
+        "vehicle",
+        "building",
+        "radar",
+        "missile",
+        "bunker",
+        "bridge",
+        "unknown"
+      ]
+    },
+    "signal": {
+      "sample_rate": 1000,
+      "feature_dim": 7,
+      "num_classes": 4,
+      "classes": [
+        "communication",
+        "radar",
+        "data",
+        "noise"
+      ]
+    },
+    "threat": {
+      "feature_dim": 12,
+      "num_classes": 3,
+      "classes": [
+        "normal",
+        "suspicious",
+        "critical"
+      ]
+    }
+  }
+}
